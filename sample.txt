@@ -1,0 +1,109 @@
+.nav{
+   background-color: black;
+   box-shadow: 3px 3px 5px white;
+  } 
+   
+  nav ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+   }
+
+   nav li{
+      height: 50px;
+}
+    nav a{
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        display: flex;
+        align-items: left;
+}
+
+nav a:hover{
+         background-color: rgb(156, 149, 149);
+}
+
+nav li:first-child{
+   margin-right: auto;
+}
+
+.sidebar{
+   position: fixed;
+   top: 0;
+   right: 0;
+   height: 45px;
+   width: 250px;
+   z-index: 999;
+   background-color: rgba(0, 0, 0, 0); 
+   backdrop-filter: blur(10px);
+   box-shadow: -10px 0 10px rgb(156, 149, 149);
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   
+}
+
+.sidebar li{
+     width: 100%
+}
+
+.sidebar a{
+      width: 100%;
+}
+
+
+
+
+
+
+
+html
+
+ <nav>
+      <ul class="sidebar">
+        <li><a href="#">St.Sylvester's</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Academiccs</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>  
+    </nav>
+
+
+    contact us css file 
+    
+    .first-card-container{
+      position: absolute;
+      top: 480px;
+      left: 180px;
+      border: 1px solid red;
+      width: 320px;
+      height: 150px;
+      flex-direction: row;
+      align-items: center;
+      }
+
+     .first-card::before{
+      /*border: 1px solid blue ;*/
+      content: '';
+      height: 150px;
+      position:absolute;
+      background-image: linear-gradient(51deg, rgba(61,43,214,1) 0%, rgba(176,27,218,1) 49%, rgba(210,36,111,1) 74%, rgba(86,200,41,1) 100%);
+      z-index: -1;
+    }
+
+    contact us html file 
+
+    <div class="first-card-container">
+    
+    <div class="first-card">
+      
+      
+    </div>
+  
+  </div>

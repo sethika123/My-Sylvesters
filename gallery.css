@@ -1,0 +1,137 @@
+@keyframes fade-intro{
+    0%{
+     opacity:0;
+     transform: translateY(15px);
+    }
+     
+   100%{
+     opacity:1;
+     transform: translateY(0px);
+   }
+  }
+
+ /* @keyframes img-animation{
+    0%{
+        transform: translate3d(0px)
+    }
+
+    100%{
+        transform: scale(0.8) rotate(-15deg);
+        box-shadow: 0 32px 75px rgba(255, 255, 255, 0.5);
+        border-radius: 20px ;
+     }
+   
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif,'Times New Roman', Times, serif;
+}*/
+
+body{
+      
+      background: rgb(0, 0, 0);
+      
+}
+
+ .title{
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    animation : fade-intro 2s 0.5s;
+ }   
+
+.img-gallery{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 30px;
+    padding-left: 110px;   
+}
+
+   .img-gallery img{
+     width: 100%;
+     cursor: pointer;
+   }
+
+   .img-gallery img:hover{
+      /*animation: img-animation 1.5s ;*/
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 32px 75px rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      transform: scale(0.8) rotate(-15deg);
+  }
+
+     .img-1{
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 110px;
+        
+     }
+
+     
+     .img-5{
+        position: relative;
+        bottom: 437px;
+     }     
+
+     .img-6{
+        position: relative;
+        left: 555px;
+        bottom: 381px;
+     }
+
+      /*footer*/
+
+      .footer {
+         
+      }
+
+      .copyright {
+          color: rgb(255, 255, 255);
+          font-size: 14;
+          position: relative;
+          right: -100px;
+          bottom: 10px;
+          
+          
+      }
+
+       .stats{
+          color: rgb(255, 255, 255);
+          font-size: 14;
+          position: relative;
+          left: 1010px;
+          bottom: 45px;
+           
+       }
+
+       .flag-color{
+        display: flex;
+        position: absolute;
+        top: 2295px;
+        left: 131px;
+      }
+      .red{
+        width: 350px;
+        height: 4px;
+        background-color: #570d2c;
+      }
+      
+      .yellow{
+        width: 350px;
+        height: 4px;
+        background-color: #fffacfff;
+      }
+    
+      .blue{
+        width: 350px;
+        height: 4px;
+        background-color: #051355;
+      }
+      

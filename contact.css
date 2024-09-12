@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    position: relative;
+}
+
+.contactus{
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.image{
+    margin-top: 30px;
+}
+
+.content{
+    display: flex;
+    min-height: 110vh;
+    
+}
+
+/*.content section{
+    margin-top:8vh ;
+    margin-left: 20vh;
+}*/
+
+.content-form{
+    margin-top: 7rem;
+}
+
+/*section i{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-align: center;
+}*/
+
+.form{
+    display: flex;
+    position: absolute;
+    top: 493px;
+    left: 110px;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+/*contact-form*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+.form .contact-form input{
+     width: 20rem;
+     background-color: transparent;
+     border: 0px;
+     border: transparent;
+     padding: 20px;
+     margin: 20px;
+     font-size: 18px;
+     border-bottom: 2px solid white;
+}
+
+.form .contact-form input ~ span{
+     position: absolute;
+     left: 0px;
+     transform: 0.9s ease-in-out;
+     margin-top: 0px;
+}
+
+
+.text{
+    background-color: transparent;
+    border: transparent;
+}
+
+.facebook{
+    width: 5%;
+    height: 10%;
+    position: relative;
+    top: 145px;
+    left: 0px;
+    
+}
+
+.instagram{
+    width: 5%;
+    height: 10%;
+    position: relative;
+    top: 74px;
+    left: 95px;
+}
+
+.twitter{
+    width: 5%;
+    height: 10%;
+    position: relative;
+    top: 4px;
+    left: 185px;
+}
+
+.h2{
+    position: relative;
+    top: 55px;
+    left: 100px;
+}
+
+.addressp{
+    position: relative;
+    top: 55px;
+    left: 100px;
+}
+
+.address-img{
+    width: 3%;
+    height: 9%;
+    position: relative;
+    top: 13px;
+    left: 35px;
+}
+
+
+.phone{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.phone-img{
+    width: 3%;
+    height: 9%;
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+
+
+.email{
+    position: relative;
+    top: 55px;
+    left: 100px;
+}
+
+.email-img{
+    width: 3%;
+    height: 9%;
+    position: relative;
+    top: 120px;
+    left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    right: -100px;
+    bottom: -45px;
+    
+    
+}
+
+ .stats{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    left: 1010px;
+    bottom: -28px;
+     
+ }
+
+ .flag-color{
+  display: flex;
+  position: absolute;
+  top: 1170px;
+  left: 100px;
+}
+.red{
+  width: 350px;
+  height: 4px;
+  background-color: #570d2c;
+}
+
+.yellow{
+  width: 350px;
+  height: 4px;
+  background-color: #fffacfff;
+}
+
+.blue{
+  width: 350px;
+  height: 4px;
+  background-color: #051355;
+}
